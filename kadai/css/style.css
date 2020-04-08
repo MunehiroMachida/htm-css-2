@@ -146,14 +146,34 @@ main{
 }
 
 
+main p img{
+    width: auto;
+    margin: 0;
+}
+.container h2{
+    color: #c84040;
+    border-bottom: 1px dashed #c84040;
+}
+.list{
+    background-color: #fff;
+    background-size: 100%;
+    border-radius: 10px;
+    padding:20px;
+}
 
-
-
-
-
-
-
-
+.course{
+    display: flex;
+}
+.course figcaption{
+    flex-flow: column;
+    background-color: #fff;
+    border-radius: 3px;
+    margin: 5px;
+    text-align: center;
+}
+.course img{
+    height: 150px;
+}
 
 
 footer{

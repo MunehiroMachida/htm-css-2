@@ -148,13 +148,27 @@ main{
 
 
 
+table{
+    border-collapse: collapse;
+}
+
+th,td{
+    border: solid 1px #393939;
+    padding: 5px;
+    white-space: nowrap;
+    text-align: center;
+
+}
+tr:nth-child(2n){
+    background-color: #4b6700;
+}
 
 
-
-
-
-
-
+textarea{
+    
+    width: 300px;
+    height: 150px;
+}
 
 footer{
     background-color: #c84040;
